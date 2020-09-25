@@ -1,0 +1,16 @@
+{
+  "name": "reformed-coffeshop-project",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "build:css": "tailwindcss build src/style.css -o dist/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^1.8.10"
+  },
+  "devDependencies": {},
+  "description": ""
+}
