@@ -21269,9 +21269,16 @@ video {
   font-style: normal;
 }
 
+.slider {
+  height: 75vh;
+  background: url('./bopomofo-background-images/1-background.jpg') no-repeat center center/cover;
+  -webkit-animation: slide 20s infinite;
+          animation: slide 20s infinite;
+}
+
 @-webkit-keyframes slide{
   25%{
-    background: url('/bopomofo-background-images/1-background.jpg') no-repeat center center/cover;
+    background: url('/bopomofo-background-images/2-background.jpg') no-repeat center center/cover;
   }
 
   25%{
@@ -21289,7 +21296,7 @@ video {
 
 @keyframes slide{
   25%{
-    background: url('/bopomofo-background-images/1-background.jpg') no-repeat center center/cover;
+    background: url('/bopomofo-background-images/2-background.jpg') no-repeat center center/cover;
   }
 
   25%{
@@ -21305,13 +21312,14 @@ video {
   }
 }
 
-.menu {
+.menu-container {
   width: 900px;
   margin: 0 auto;
 }
 
-.logo {
-  display: none;
+.menu {
+  height: 100%;
+  width: 100%;
 }
 
 @media (min-width: 640px) {
