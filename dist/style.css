@@ -21314,12 +21314,6 @@ video {
 
 .menu-container {
   width: 900px;
-  margin: 0 auto;
-}
-
-.menu {
-  height: 100%;
-  width: 100%;
 }
 
 @media (min-width: 640px) {

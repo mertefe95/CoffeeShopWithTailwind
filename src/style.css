@@ -35,8 +35,6 @@
     animation: slide 20s infinite;
 }
 
-
-
 @keyframes slide{
     25%{
         background: url('/bopomofo-background-images/2-background.jpg') no-repeat center center/cover;
@@ -55,11 +53,4 @@
 
 .menu-container {
     width: 900px;
-    margin: 0 auto;
-}
-
-
-.menu {
-    height: 100%;
-    width: 100%;
 }
