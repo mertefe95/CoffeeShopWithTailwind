@@ -3,3 +3,28 @@
 @tailwind components;
 
 @tailwind utilities; 
+
+
+@font-face {
+    font-family: 'Inter';
+    src: url("./Inter.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Coyote SemiBold DEMO';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Coyote SemiBold DEMO'), url('./Coyote-SemiBoldDEMO.woff') format('woff');
+    }
+
+
+@font-face {
+    font-family: 'DIN 2014';
+    src: url('DIN2014-Regular.eot');
+    src: local('DIN 2014 Regular'), local('DIN2014-Regular'),
+        url('DIN2014-Regular.eot?#iefix') format('embedded-opentype'),
+        url('DIN2014-Regular.woff') format('woff'),
+        url('DIN2014-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
