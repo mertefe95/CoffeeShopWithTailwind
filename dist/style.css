@@ -21316,6 +21316,14 @@ video {
   width: 900px;
 }
 
+.order-ahead-container {
+  height: 80vh;
+}
+
+.order-ahead-image{
+  background: url('../images/below-image.png') no-repeat center center/cover;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
